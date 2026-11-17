@@ -1,0 +1,13 @@
+ELIZAMA GOMES - arquivos atualizados
+
+1) GITHUB: envie TODOS os arquivos da pasta 1-GITHUB-enviar-estes-arquivos
+   (Add file > Upload files). Os 5 icones (.png) ficam soltos, junto com
+   index.html, manifest.webmanifest, sw.js e .nojekyll. Depois: Commit changes.
+   Se o GitHub pedir, confirme substituir os arquivos antigos.
+
+2) FIREBASE: as regras nao mudaram. Se ja foram publicadas, nao precisa repetir.
+   (Arquivo firebase-regras.json: Realtime Database > Regras > Publicar.)
+
+3) NO CELULAR: apos publicar, abra o link, atualize a pagina 2 vezes. Para trocar
+   o icone na tela inicial, remova o app antigo e instale de novo.
+   Os dados ja salvos continuam (mesmo banco local e mesma nuvem).
