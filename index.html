@@ -28,7 +28,7 @@ input,select,textarea{width:100%;padding:9px 10px;border:1px solid #a9d9e6;borde
 input:focus,select:focus,button:focus-visible{outline:2px solid var(--acc);outline-offset:1px}
 .fg{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:0 12px}
 button.b{background:var(--blue);color:#fff;border:0;border-radius:6px;padding:10px 16px;font:inherit;font-weight:600;cursor:pointer}
-button.b.s{background:#dff6fb;color:var(--ink)}button.b.w{background:#0b8f4d}button.b.sh{display:inline-flex;align-items:center;gap:8px;background:#7a3fc4}button.b.d{background:#fff;color:var(--bad);border:1px solid var(--bad)}
+button.b.s{background:#dff6fb;color:var(--ink)}button.b.w{background:#0b8f4d}button.b.d{background:#fff;color:var(--bad);border:1px solid var(--bad)}
 button.sm{padding:5px 10px;font-size:13px}
 .tw{overflow-x:auto}table{width:100%;border-collapse:collapse}
 th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:middle}
@@ -338,7 +338,7 @@ body.menu #side{transform:none}
 
 <div id="rec"><div class="card"><h2>Venda concluída</h2><div id="recBox" class="cupom"></div><p class="dica" id="recNote" style="margin:0 0 10px">Comprovante finalizado: os dados da venda não podem ser alterados.</p>
  <label>WhatsApp do cliente<input id="recTel" inputmode="tel" placeholder="(11) 99999-9999"></label>
- <div class="row"><button class="b sh" id="recSh" type="button"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 10.5l6.8-4M8.6 13.5l6.8 4"/></svg>Compartilhar</button><button class="b w" id="recWa">Enviar comprovante no WhatsApp</button><button class="b s" id="recPr">Imprimir comprovante</button><button class="b s" id="recX">Fechar</button></div></div></div>
+ <div class="row"><button class="b w" id="recWa">Enviar comprovante no WhatsApp</button><button class="b" id="recSh" type="button" aria-label="Compartilhar comprovante" title="Compartilhar"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 10.5l6.8-4M8.6 13.5l6.8 4"/></svg></button><button class="b s" id="recPr">Imprimir comprovante</button><button class="b s" id="recX">Fechar</button></div></div></div>
 
 <div id="aut"><div class="card"><h2>Relatório do dia</h2><p class="dica" id="autInfo"></p><pre id="autTxt" style="white-space:pre-wrap"></pre><div class="row" id="autBt"></div><div class="row" style="margin-top:10px"><button class="b s" id="autX">Fechar</button></div></div></div>
 
